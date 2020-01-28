@@ -12,9 +12,9 @@ int main(){
 	string textline;
 	source.open("D:\\LabCpp\\lab9-2562-2-POOHPHE-master\\cheerbook.txt");
 	out.open("D:\\LabCpp\\lab9-2562-2-POOHPHE-master\\cheerbook_copy.txt");
-	out<<"-------------------- SOTUS ---------------------";
+	out<<"-------------------- SOTUS ---------------------\n";
 	while(getline(source,textline)){
-		out<<textline;
+		out<<textline<<endl;
 	}
 	out<<"-------------------- SOTUS ---------------------";
 	source.close();
